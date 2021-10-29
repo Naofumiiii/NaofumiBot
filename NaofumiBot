@@ -14,7 +14,7 @@ _get_repolink () {
     then
         if [[ $Naofumi_REPO_BRANCH ]]
         then
-            echo "${Naofumi_REPO}/archive/${LEGEND_REPO_BRANCH}.zip"
+            echo "${Naofumi_REPO}/archive/${Naofumi_REPO_BRANCH}.zip"
         else
             echo "${Naofumi_REPO}/archive/master.zip"
         fi
@@ -30,7 +30,7 @@ _set_bot () {
     echo "  ⚜Downloading NaofumiBot Source Code...❤"
     wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
-    LEGENDPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    NaofumiPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
     echo "  NaofumiBot Cleaning.."
