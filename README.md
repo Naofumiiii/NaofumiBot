@@ -84,7 +84,7 @@
 `pip install -U -r requirements.txt`
 - Generate Naofumi STRING.
 
-`python LegendString.py`
+`python NaofumiString.py`
 - Create config.py or rename exampleconfig.py to config.py. Fill All The Required Variables.
 - Finally Start NaofumiBot By Vps
 
