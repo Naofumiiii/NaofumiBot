@@ -69,7 +69,7 @@
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "ɪ'ᴍ ɴᴀᴏғᴜᴋɪ ɪ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪs ʙᴏᴛ ʜᴏᴘᴇ ᴜ ʟɪᴋᴇ ᴛʜᴀᴛ",
+      "value": "ɪ'ᴍ ɴᴀᴏғᴜmɪ ɪ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪs ʙᴏᴛ ʜᴏᴘᴇ ᴜ ʟɪᴋᴇ ᴛʜᴀᴛ",
       "required": true
     },
     "PM_PIC": {
